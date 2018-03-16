@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Костя Перескоков — Заказ японских запчастей</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        #first-row {
+            margin-top: 90px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.75rem;
+        }
+
+        form small {
+            font-size: 75%;
+        }
+
+        a.dashed {
+            text-decoration: none;
+            border-bottom: dashed #007bff;
+            border-bottom-width: 1px;
+        }
+
+        #order-row {
+            margin-top: 40px;
+        }
+
+        #order-btn {
+            padding: .275rem 1.4rem;
+        }
+    </style>
+</head>
+<body>
+<div class="container" style="max-width: 1100px;">
+    <div class="row" id="first-row">
+        <div id="form-col" class="col-md-10">
+            <form>
+                <h1>Японские запчасти</h1>
+
+                <div id="parts-container" class="form-group row">
+                    <label for="parts" class="col-md-2 col-form-label col-form-label-sm">Запчасти</label>
+                    <div class="col-md-6">
+                        <textarea class="form-control form-control-sm" name="parts" id="parts" rows="6"
+                                  autofocus
+                                  placeholder="Левое зеркало, ремень генератора, левая передняя фара, передний бампер..."></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="vin" class="col-md-2 col-form-label col-form-label-sm">ВИН машины
+                        <small class="form-text"><a class="dashed" href="#">Я не знаю вин</a></small>
+                    </label>
+                    <div class="col-md-7">
+                        <input type="text" class="form-control form-control-sm col-md-4" id="vin"
+                               placeholder="KL1UF756E6B195928">
+                        <small class="form-text">подберем запчасти, подходящие вашей машине
+                        </small>
+                    </div>
+                    <div class="col-md-3" style="position: absolute; right: 0;">
+                        <img src="./vin.jpg" width="433" height="600" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="city" class="col-md-2 col-form-label col-form-label-sm">Город</label>
+                    <div class="col-md-7">
+                        <input type="text" class="form-control form-control-sm col-md-4" id="city"
+                               placeholder="Челябинск">
+                        <small class="form-text">посчитаем стоимость и срок доставки
+                        </small>
+
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="email" class="col-md-2 col-form-label col-form-label-sm">Электронная почта</label>
+                    <div class="col-md-7">
+                        <input type="text" class="form-control form-control-sm col-md-4" id="email"
+                               placeholder="toretto@mail.ru">
+                        <small class="form-text">пришлем найденные запчасти с ценой и сроком доставки</small>
+                    </div>
+                </div>
+
+                <div id="order-row" class="form-group row">
+                    <div class="col-md-7 offset-md-2">
+                        <button id="order-btn" type="submit" class="btn btn-secondary" disabled>Заказать</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
