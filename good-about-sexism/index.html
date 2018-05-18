@@ -24,7 +24,7 @@
             position: relative;
         }
 
-        .footer {
+        footer {
             padding-top: 26px;
             padding-bottom: 30px;
             background-color: rgb(237, 230, 213);
@@ -32,6 +32,15 @@
             bottom: 0;
             width: 100%;
             height: 112px;
+        }
+
+        h2 {
+            margin-top: 1.5rem;
+            margin-bottom: .75rem;
+        }
+
+        p {
+            margin-bottom: .75rem;
         }
 
         a {
@@ -44,15 +53,14 @@
         }
 
         /* Specific */
-        #first-row {
-            padding-top: 160px;
-            /*height: 400px;*/
-            /*background: #7eff73;*/
-            /*padding: 20px;*/
+        header {
+            padding-top: 35px;
+            padding-bottom: 90px;
+            background-color: rgb(237, 230, 213);
         }
 
-        h1 {
-            font-size: 4em;
+        #first-row h1 {
+            font-size: 4.5em;
         }
 
         #first-row .lead {
@@ -63,8 +71,7 @@
             padding-top: 2em;
         }
 
-        #answer {
-            margin-top: 40px;
+        #answer p {
             font-size: 140px;
             font-weight: bold;
             letter-spacing: .35em;
@@ -72,33 +79,46 @@
         }
 
         #article {
-            margin-top: 90px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-<main class="container">
-    <div class="row" id="first-row">
-        <div class="col-md-12 col-12">
-            <div class="lead-wrapper">
-                <h1>Что хорошего в сексизме</h1>
-                <p class="lead">И что скрывают феминистки, обвиняя в нём всех вокруг</p>
+<header>
+    <div class="container">
+        <div class="row" id="first-row">
+            <div class="col-md-12 col-12">
+                <div class="lead-wrapper">
+                    <h1>Что хорошего в сексизме</h1>
+                    <p class="lead">И что скрывают феминистки, обвиняя в нём всех вокруг</p>
+                </div>
             </div>
         </div>
     </div>
-
+</header>
+<main class="container">
     <div class="row" id="answer">
         <div class="col-md-12 col-12">
+            <h2>Короткий ответ</h2>
             <p>НИ&shy;ЧЕ&shy;ГО.</p>
         </div>
     </div>
 
-    <!--<div id="article" class="row">-->
-    <!--<div class="col-md-9 col-12">-->
-    <!--<h1>Что плохого в сексизме</h1>-->
-    <!--<p>Если коротко — сексизм ухудшает качество жизни и ограничивает развитие общества.</p>-->
-    <!--</div>-->
-    <!--</div>-->
+    <div id="article" class="row">
+        <div class="col-md-9 col-12">
+            <h2>Что такое сексизм</h2>
+
+            <p>Сексизм это предвзятое отношение к людям или дискриминация людей по признаку гендера. «Женщина не может быть хорошим ученным», «Мальчики не плачут», «Хозяйством детьми должна заниматься женщина» — примеры сексистских суждений.</p>
+            <!-- Сноска про гендер -->
+
+            <p>Сексизм неразрывно связан с понятнием патриархата, в котором мы живем несколько тысяч лет. Патриархат это устройство общества, в котором вся власть и авторитет принадлежат мужчинам, начиная с семьи и заканчивая религией, наукой и государством. Женщины при этом находятся в подчиненном положении. Поэтому, говоря о сексизме, в первую очередь обсуждают проблемы женщин.</p>
+            <!-- Сноска про обратный сексизм -->
+
+            <h2>Как проявляется сексизм</h2>
+            <h2>Какие проблемы вызывает сексизм</h2>
+            <h2>Как не вести себя сексистски</h2>
+        </div>
+    </div>
 </main>
 
 <footer class="footer">
