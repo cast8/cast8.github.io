@@ -42,7 +42,7 @@
         }
 
         .figure-caption {
-            font-size: 90%;
+            font-size: 85%;
             color: black;
         }
 
@@ -56,7 +56,7 @@
         }
 
         h1, h2 {
-            font-family: CertaSansMedium, serif;
+            font-family: CertaSansMedium, sans-serif;
         }
 
         h3 {
@@ -95,7 +95,7 @@
             font-size: 200%;
             font-weight: normal;
             font-style: italic;
-            font-family: CertaSansItalic, serif;
+            font-family: CertaSansItalic, sans-serif;
         }
 
         .lead-wrapper {
@@ -107,6 +107,22 @@
             top: -50px;
             right: -220px;
             width: 170px;
+        }
+
+        .under-picture {
+            margin-top: 0;
+        }
+
+        .above-picture {
+            margin-bottom: 15px;
+        }
+
+        .sidenote {
+            position: absolute;
+            top: 0;
+            right: -250px;
+            width: 200px;
+            font-size: 85%;
         }
     </style>
 </head>
@@ -141,7 +157,6 @@
         <div class="row">
             <div class="col-md-8 col-12">
                 <h2>Длинный</h2>
-                <p>На&nbsp;длинном лонгборде легче держать баланс и&nbsp;не&nbsp;падать с&nbsp;доски при проезде препятствий вроде поребриков, люков, трещин в&nbsp;асфальте и&nbsp;мелких камешков. Чтобы определить минимальную длину, вам нужно найти стойку, в&nbsp;которой вы&nbsp;стоите удобно и&nbsp;устойчиво.</p>
             </div>
         </div>
 
@@ -149,55 +164,65 @@
             <div class="col-md-5 col-6">
                 <figure class="figure">
                     <img src="./photo/short-ex.jpg" class="figure-img img-fluid">
-                    <figcaption class="figure-caption">Слишком короткий — будет сложно учиться и комфортно ездить
+                    <figcaption class="figure-caption">❌ Слишком короткий — сложно учиться и неудобно ездить
                     </figcaption>
                 </figure>
             </div>
             <div class="col-md-5 col-6">
                 <figure class="figure">
                     <img src="./photo/long-ex.jpg" class="figure-img img-fluid">
-                    <figcaption class="figure-caption">В самый раз — можно расслабленно ездить и просто учиться
+                    <figcaption class="figure-caption">✅ В самый раз — легко учиться и комфортно ездить
                     </figcaption>
                 </figure>
             </div>
         </div>
-        <div class="row">
+        <div class="row under-picture">
             <div class="col-md-8 col-12">
+                <p>На&nbsp;длинном лонгборде легче держать баланс и&nbsp;не&nbsp;падать с&nbsp;доски при проезде препятствий вроде поребриков, люков, трещин в&nbsp;асфальте и&nbsp;мелких камешков. Чтобы определить минимальную длину, вам нужно найти стойку, в&nbsp;которой вы&nbsp;стоите удобно и&nbsp;устойчиво.</p>
+            </div>
+        </div>
 
+        <div class="row under-picture  above-picture">
+            <div class="col-md-8 col-12">
+                <h3>Стойка</h3>
                 <p>Чтобы найти свою устойчивую стойку, проведите простой эксперимент: встаньте так, как стоите обычно и&nbsp;разверните стопы в&nbsp;одну сторону так, как они будут стоять на&nbsp;доске во&nbsp;время катания: передняя стопа примерно 45&nbsp;градусов, задняя на&nbsp;30. Затем попросите кого-нибудь толкнуть вас сбоку сначала в&nbsp;одно плечо, затем в&nbsp;другое. Если вы&nbsp;делаете шаг в&nbsp;сторону, чтобы удержаться на&nbsp;ногах&nbsp;&mdash; стойка неустойчивая. Скорее всего, вы&nbsp;захотите поставить ноги пошире&nbsp;&mdash; в&nbsp;этом случае энергию толчка вы&nbsp;компенсируете приседанием.</p>
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <figure class="figure">
-                    <img src="./photo/narrow-stand.jpg" class="figure-img img-fluid">
-                    <figcaption class="figure-caption">Слишком короткий — будет сложно учиться и комфортно ездить
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-md-3">
-                <figure class="figure">
-                    <img src="./photo/perfect-stand.jpg" class="figure-img img-fluid">
-                    <figcaption class="figure-caption">В самый раз — можно ездить расслабленно ездить и просто учиться
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-md-3">
-                <figure class="figure">
-                    <img src="./photo/wide-stand.jpg" class="figure-img img-fluid">
-                    <figcaption class="figure-caption">В самый раз — можно ездить расслабленно ездить и просто учиться
-                    </figcaption>
-                </figure>
             </div>
         </div>
 
         <div class="row">
+            <div class="col-md-3">
+                <figure class="figure">
+                    <img src="photo/narrow-stand.jpg" class="figure-img img-fluid">
+                    <figcaption class="figure-caption">❌ Слишком узко — сложно держать баланс и проезжать препятствия
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="figure">
+                    <img src="photo/perfect-stand.jpg" class="figure-img img-fluid">
+                    <figcaption
+                            class="figure-caption">✅ В самый раз — комфортно стоять и легко удерживать баланс, проезжая препятствия
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="figure">
+                    <img src="photo/wide-stand.jpg" class="figure-img img-fluid">
+                    <figcaption class="figure-caption">❌ Слишком широко — неудобно поворачивать и быстро устаешь
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="row under-picture  above-picture">
             <div class="col-md-8 col-12">
-
                 <p>Чем шире ноги, тем лучше устойчивость, но&nbsp;одновременно с&nbsp;этим меньше комфорт. В&nbsp;шпагате вас невозможно сбить с&nbsp;ног, но&nbsp;и&nbsp;находиться в&nbsp;нем дольше нескольких минут&nbsp;&mdash; мучение. Поэтому оптимальная с&nbsp;точки зрения соотношения устойчивости и&nbsp;комфорта стойка, к&nbsp;которой приходит большинство известных мне начинающих&nbsp;&mdash; ноги шире плеч на&nbsp;10-20&nbsp;см, в&nbsp;зависимости от&nbsp;роста.</p>
+            </div>
+        </div>
 
-
+        <div class="row under-picture">
+            <div class="col-md-8 col-12">
+                <h3>Колесная база</h3>
                 <p>На&nbsp;каждом лонгборде есть болты, которыми подвески крепятся к&nbsp;деке. В&nbsp;своей оптимальной стойке вы&nbsp;должны помещаться на&nbsp;лонгборде между этими болтами. Это необходимо для безопасности и&nbsp;правильного поворачивания. Поэтому при выборе доски в&nbsp;первую очередь ориентируйтесь на&nbsp;это расстояние, называемое колесной базой, а&nbsp;не&nbsp;на&nbsp;длину всей доски.</p>
             </div>
         </div>
@@ -206,21 +231,23 @@
             <div class="col-md-5 col-6">
                 <figure class="figure">
                     <img src="./photo/base.jpg" class="figure-img img-fluid">
-                    <figcaption class="figure-caption">Слишком короткий — будет сложно учиться и комфортно ездить
+                    <figcaption class="figure-caption">Колесная база — расстояние между внутренними болтами
                     </figcaption>
                 </figure>
             </div>
             <div class="col-md-5 col-6">
                 <figure class="figure">
                     <img src="./photo/stand.jpg" class="figure-img img-fluid">
-                    <figcaption class="figure-caption">В самый раз — можно расслабленно ездить и просто учиться
+                    <figcaption class="figure-caption">Длина стойки — расстояние от внешней стороны задней пятки до внешней стороны переднего носка
                     </figcaption>
                 </figure>
             </div>
         </div>
 
-        <div class="row">
+
+        <div class="row under-picture">
             <div class="col-md-8 col-12">
+
                 <p>Чтобы купить лонгборд в&nbsp;интернете, измерьте длину вашей стойки, от&nbsp;внешней стороны одной ступни, до&nbsp;внешней стороны другой. Если колесная база доски больше длины стойки или на&nbsp;несколько сантиметров меньше&nbsp;&mdash; отлично, этот лонгборд вам подходит.</p>
 
                 <h2>Комфортный</h2>
@@ -234,7 +261,7 @@
             <div class="col-md-8 col-12">
                 <figure class="figure">
                     <img src="./photo/wheels.jpg" class="figure-img img-fluid">
-                    <figcaption class="figure-caption">Слишком короткий — будет сложно учиться и комфортно ездить
+                    <figcaption class="figure-caption">На больших колесах проще ехать по неровному асфальту
                     </figcaption>
                 </figure>
             </div>
@@ -311,10 +338,20 @@
 
                 <h3>Обучение</h3>
 
+                <div style="position: relative;">
                 <p>Лучший путь начать кататься&nbsp;&mdash; найти инструктора или школу лонгбординга в&nbsp;вашем городе. Инструктор научит вас эффективно и&nbsp;безопасно вставать на&nbsp;доску, отталкиваться, тормозить и&nbsp;поворачивать. Я&nbsp;учился самостоятельно, в&nbsp;итоге из-за неоптимального отталкивания и&nbsp;торможения растянул ахиллово сухожилие и&nbsp;полтора месяца не&nbsp;мог встать на&nbsp;доску и&nbsp;ходил слегка прихрамывая.</p>
 
-                <p>Если нет возможности пройти обучение у&nbsp;инструктора, посмотрите обучающие ролики на&nbsp;ютубе. Чтобы увеличить эффективность обучения, попросите знакомых снимать вас на&nbsp;видео&nbsp;&mdash; так вы&nbsp;увидите ошибки и&nbsp;сможете их&nbsp;исправить.</p>
+                    <div class="sidenote">
+                        <p>Я ходил в школу <a href="https://vk.com/rollingwave">Rolling Wave</a> в Петербурге, и всем теперь ее рекомендую.</p>
+                    </div>
 
+                </div>
+                <div style="position: relative;">
+                <p>Если нет возможности пройти обучение у&nbsp;инструктора, посмотрите обучающие ролики на&nbsp;ютубе. Чтобы увеличить эффективность обучения, попросите знакомых снимать вас на&nbsp;видео&nbsp;&mdash; так вы&nbsp;увидите ошибки и&nbsp;сможете их&nbsp;исправить.</p>
+                    <div class="sidenote">
+                        <p>Например, этот <a href="https://www.youtube.com/watch?v=a3sJ4bO4FNw&index=1&list=PLaE4Y-hr5dQti86XPw3v16M7b7mV4eGZ5">плэйлист</a> от Школы Траектории.</p>
+                    </div>
+                </div>
                 <h3>Аренда</h3>
 
                 <p>В&nbsp;больших городах лонгборды сдаются в&nbsp;аренду, сутки стоят от&nbsp;300 до&nbsp;600&nbsp;рублей, проще всего найти объявления на&nbsp;Авито. Некоторые школы на&nbsp;время занятия дают лонгборды бесплатно.</p>
@@ -326,7 +363,7 @@
                 <p>При правильном обучении падения с&nbsp;доски практически исключены. Тем не&nbsp;менее, защита позволит вам сосредоточится на&nbsp;упражнениях, не&nbsp;переживая за&nbsp;травмы.</p>
                 <p>Минимальный комплект, доступный любому: кеды или кроссовки, джинсы, куртка или плотная рубашка с&nbsp;рукавами, перчатки из&nbsp;строительного магазина. Эти вещи защитят вашу кожу от&nbsp;ран и&nbsp;ссадин при падении на&nbsp;асфальт.</p>
                 <p>Если есть возможность, то&nbsp;к&nbsp;этому комплекту стоит добавить шлем, наколенники, налокотники и&nbsp;защиту кистей. Это защитит от&nbsp;ушибов и&nbsp;синяков.</p>
-                <p>Берегите себя и&nbsp;удачи в&nbsp;обучении!</p>
+                <p style="font-family: CertaSansItalic,sans-serif; font-size: 30px; margin-top: 35px">Берегите себя и&nbsp;удачи в&nbsp;обучении!</p>
             </div>
         </div>
     </div>
